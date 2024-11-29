@@ -66,14 +66,14 @@ const CoffeeCard = ({coffee, setCoffees, coffees}) => {
 	}
 
 	return (
-		<div className="card lg:card-side bg-base-100 shadow-xl">
+		<div className="card lg:card-side bg-gradient-to-b from-rose-300 to-sky-600 font-semibold shadow-xl">
 		<figure>
 			<img
 				src={photo}
 				alt="coffee" />
 		</figure>
 		<div className="flex w-full m-4 items-center justify-between">
-			<div>
+			<div className='space-y-2'>
 				<p>Name: {name}</p>
 				<p>Chef: {chef}</p>
 				<p>Taste: {taste}</p>
