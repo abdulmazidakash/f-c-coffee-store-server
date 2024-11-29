@@ -113,7 +113,7 @@ const UpdateCoffee = () => {
 
 				</div>
 				<div className="form-control mt-6">
-					<button className="btn btn-primary text-xl font-bold bg-gradient-to-l from-red-500 to-orange-500">UPDATE COFFEE</button>
+					<button className="btn text-white text-xl font-bold bg-gradient-to-l from-gray-800 to-orange-800">UPDATE COFFEE</button>
 				</div>
 			</form>
 		</div>

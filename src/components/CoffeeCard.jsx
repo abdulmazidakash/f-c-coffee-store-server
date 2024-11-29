@@ -66,7 +66,7 @@ const CoffeeCard = ({coffee, setCoffees, coffees}) => {
 	}
 
 	return (
-		<div className="card lg:card-side bg-gradient-to-b from-rose-300 to-sky-600 font-semibold shadow-xl">
+		<div className="card text-white lg:card-side bg-gradient-to-b from-gray-800 to-sky-600 font-semibold shadow-xl">
 		<figure>
 			<img
 				src={photo}
